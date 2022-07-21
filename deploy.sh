@@ -10,3 +10,9 @@
 #       - destroy
 #
 # You may have noticed that those 3 actions are the same primary actions terraform is capable of making. This is intentional! 
+
+echo "Hey $BITOPS_EXAMPLE_PLUGIN_NAME"
+
+if [ -n "$BITOPS_EXAMPLE_PLUGIN_FAV_COLOR" ]; then
+    "I bet your favorite color is $BITOPS_EXAMPLE_PLUGIN_FAV_COLOR"
+fi
