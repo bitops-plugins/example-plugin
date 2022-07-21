@@ -1,0 +1,18 @@
+tool-name:
+  type: object
+  properties:
+    cli:
+      type: object
+      properties:
+        name:
+          type: string
+          parameter: name
+          export_env: NAME
+          required: true
+    options:
+      type: object
+      properties:
+        flag-for-thing:
+          type: boolean
+          parameter: thing_flag
+          export_env: FLAG_FOR_THING
