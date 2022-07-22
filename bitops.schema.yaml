@@ -7,11 +7,11 @@ example-plugin:
         name:
           type: string
           parameter: name
-          export_env: NAME
+          export_env: EXAMPLE_PLUGIN_NAME
           required: true
     options:
       type: object
       properties:
         favorite_color:
           type: string
-          export_env: FAV_COLOR
+          export_env: EXAMPLE_PLUGIN_FAV_COLOR
