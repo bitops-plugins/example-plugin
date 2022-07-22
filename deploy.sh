@@ -14,5 +14,5 @@
 echo "Hey $BITOPS_EXAMPLE_PLUGIN_NAME"
 
 if [ -n "$BITOPS_EXAMPLE_PLUGIN_FAV_COLOR" ]; then
-    "I bet your favorite color is $BITOPS_EXAMPLE_PLUGIN_FAV_COLOR"
+    echo "I bet your favorite color is $BITOPS_EXAMPLE_PLUGIN_FAV_COLOR"
 fi
